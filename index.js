@@ -10,7 +10,7 @@ var winston = require('winston');
 var expressWinston = require('express-winston');
 
 var app = express();
-npm
+
 // 设置模板目录
 app.set('views', path.join(__dirname, 'views'));
 // 设置模板引擎为 ejs
